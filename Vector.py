@@ -14,7 +14,8 @@ def norma_vector(x):
 def norma_vector1(x):
     return max(x)
 
-
+def norma_vector2(x):
+    return sum(x)
 
 
 
