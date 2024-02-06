@@ -11,6 +11,16 @@ def norma_vector(x):
     # return norma
 
 
+def norma_vector1(x):
+    return max(x)
+
+
+
+
+
+
+
+
 def differ_vectors(v1, v2):
     n = len(v1)
     v = []
@@ -38,14 +48,9 @@ def perpenducylar(x, y):
 
 def paralelnict(x, y):
     
+    pass
 
 
-a = [2, 2, 5]
-print(norma_vector(a))
-b = [1, 2]
-c = [1, 0, -1]
-print(skalar(a, b))
-print(skalar(a, c))
 
 
 if __name__ == '__main__':
